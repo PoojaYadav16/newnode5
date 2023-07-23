@@ -1,0 +1,93 @@
+GET http://localhost:3000/allemp HTTP/1.1
+
+###
+POST http://localhost:3000/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"abc10@gmail.com",
+    "password":"abcde"
+}
+
+
+####
+POST http://localhost:3000/adminlogin HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"admin@gmail.com",
+    "password":"54321"
+}
+
+####
+POST http://localhost:3000/newuser HTTP/1.1
+Content-Type: application/json
+
+{
+     "email":"xyz0@gmail.com",
+    "password":"1234",
+    "name":"harry potter"
+}
+
+
+####
+get http://localhost:3000/state/allstate HTTP/1.1
+
+
+####
+get http://localhost:3000/city/allcities/2 HTTP/1.1
+
+####
+get http://localhost:3000/city/getallcities HTTP/
+
+
+####
+get http://localhost:3000/allcolleges HTTP/1.1
+
+####
+get http://localhost:3000/college/getallcollege HTTP/1.1
+
+###
+get http://localhost:3000/getcollegebycid/5 HTTP/1.1
+
+###
+get http://localhost:3000/statebyid/2 HTTP/1.1
+
+
+###
+get http://localhost:3000/gettransportationbycid/2145 HTTP/1.1
+
+
+####
+POST http://localhost:3000/city/save HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"bhopal",
+    "iframe":"adsas",
+    "status":"0"
+
+ }
+
+ 
+####
+POST http://localhost:3000/college/save HTTP/1.1
+Content-Type: application/json
+
+{
+   "clg_name":"lnct",
+   "full_address":"raisen",
+   "iframe":"nfdsjsfnsd",
+   "website":"n fdffn",
+   "virtual_tour":"ngvfdngjgn",
+   "vr_pics":"mkgjrgkr",
+   "status":"1",
+   "degree":"ndjf",
+   "facilities":"nfgnfgn",
+   "placement":"kajse",
+   "cutoff":"nn",
+ 
+}
+ 
+
+ 
